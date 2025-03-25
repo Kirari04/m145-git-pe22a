@@ -17,7 +17,8 @@ Switch 1 Outbound PDU Details
 ![alt text](image-1.png)
 
 # Block 05 - 18.03.2025 - VLAN
-- Traffic nur innerhalb einer VLAN ID senden => Send to this Port
+- Falls keine VLAN ID im Packet definiert an alle VLAN ID's von Sender Port => Send to this Port
+- Falls eine VLAN ID im Packet definiert an definierte VLAN ID => Send to this Port
 - Falls Receiver Tagged ist und Sender Tagged => Add Tag
 - Falls Receiver Tagged ist und Sender Untagged => No Tag
 - Falls Receiver Untagged ist und Sender Tagged => No Tag
