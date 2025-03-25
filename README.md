@@ -16,3 +16,7 @@ PC 127.16.31.5 `ping 172.16.31.2`
 Switch 1 Outbound PDU Details
 ![alt text](image-1.png)
 
+# Block 05 - 18.03.2025 - VLAN
+- Traffic nur innerhalb einer VLAN ID senden => Send to this Port
+- Falls Receiver Tagged ist => Add Tag
+- Falls Receiver Untagged ist => No Tag
