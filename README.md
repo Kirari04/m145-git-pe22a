@@ -21,5 +21,5 @@ Switch 1 Outbound PDU Details
 - Falls eine VLAN ID im Packet definiert an definierte VLAN ID => Send to this Port
 - Falls Receiver Tagged ist und Sender Tagged => Add Tag
 - Falls Receiver Tagged ist und Sender Untagged => No Tag
-- Falls Receiver Untagged ist und Sender Tagged => No Tag
+- Falls Receiver Untagged ist und Sender Tagged => Add Tag
 - Falls Receiver Untagged ist und Sender Untagged => No Tag
