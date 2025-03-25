@@ -18,5 +18,7 @@ Switch 1 Outbound PDU Details
 
 # Block 05 - 18.03.2025 - VLAN
 - Traffic nur innerhalb einer VLAN ID senden => Send to this Port
-- Falls Receiver Tagged ist => Add Tag
-- Falls Receiver Untagged ist => No Tag
+- Falls Receiver Tagged ist und Sender Tagged => Add Tag
+- Falls Receiver Tagged ist und Sender Untagged => No Tag
+- Falls Receiver Untagged ist und Sender Tagged => No Tag
+- Falls Receiver Untagged ist und Sender Untagged => No Tag
